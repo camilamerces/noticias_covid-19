@@ -1,6 +1,6 @@
 body {
 	background-color: #99ccff;
-	font-family: 1rem 'CircularStd', sans-serif;
+	font-family: "Lucida Console", Monaco, monospace;
 }
 
 #conteudo{
@@ -8,11 +8,12 @@ body {
 	margin-left: 5%;
 	margin-right: 5%;
 	padding: 2%;
+	border-radius: 10px;
 }
 
 #cabecalho{
     font-size: 30px;
-    color: black;
+    color: #404040;
     text-align: center;
 	padding-left: 50px;
     margin-bottom: 30px; 
@@ -24,117 +25,145 @@ body {
     font-size: 25;
     display: flex;
 	justify-content: space-between;
-    margin-bottom: 30px;
-    border: #99ccff 1px solid;  
-    border-radius: 10px;
+    margin-bottom: 20px;  
+	border-radius: 10px;
+	padding: 10px;
     display: flex;
     text-align: justify;
     justify-content: space-evenly;
     background-color: #99ccff;
-    text-decoration: unset;
 }
 
 a{
-    text-decoration: unset;
+	
+	text-decoration: none;
+	text-decoration: unset;
 }
 
-
-#imgLoja{
-	width: 100%;
-}
-
-#tituloDestaque{
-	font-family: Verdana;
-	display: flex;
-	justify-content: center;
-	text-shadow: gray 1px 1px 1px;
-}
-
-#produtos{
-	display: none;
-	justify-content: space-between;
-}
 
 .noticia{
-	border: gray 1px solid;
-	margin-left: 10px;
-	margin-right: 10px;
-    box-shadow: gray 2px 3px 3px;
-    justify-content: center;
-    display: flexbox
-    text-align: center
+	border: #b3b3ff 4px solid;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px;
+}
+
+.linha{
+	border: #9999ff 2px dashed;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+
+p{
+	text-align: justify;
+	padding-left: 50px;
+	padding-right: 50px;
+
 }
 
 .img{
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-left: 7%;
-    padding-right: 7%;
+    width: 40%;
+	border-radius: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
-.imgDestaque{
-	width: 100px;
-	margin-left: 20%;
-	margin-bottom: 10px;
+.imgPessoal{
+	width: 20%;
+	border-radius: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
 }
+
+.video{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+}
+
 
 h3{
 	text-align: center;
 	font-size: 30px;
 }
 
-.descDestaque{
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+.sobre{
 	text-align: center;
+	
 }
 
 #rodape{
 	display: flex;
-	justify-content: space-between;
-	background-color: rgb(110,110,110);
-	margin-top: 30px;
-}
-
-#redesSociais{
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	margin-left: 20px;
-	margin-top: 20px;
-	color: white;
-	padding-bottom: 50px;
-}
-
-.rede{
+	background-color: #99ccff;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-#email{
-	margin-right: 50px;
-}
-
-#receba{
-	color: white;
+	margin-bottom: 8px;
 }
 
 input{
-	width: 100%;
-	height: 40px;
-	margin-bottom: 10px;
+	width: 35%;
+	height: 30px;
+	display: flex;
+
+}
+textarea{
+	width: 35%;
+	height: 80px;
+	display: flex
+	
 }
 
+.contact-input{
+	border-radius: 5px;
+	margin: auto;
+
+}
 button{
-	background-color: rgb(80,80,250);
-	width: 100px;
-	height: 60px;
-	border: rgb(80,80,250) 1px solid;
-	color: white;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	border: #66b3ff 1px solid;
+	border-radius: 5px;
+	width: 6.5%;
 	font-size: 20px;
-	box-shadow: blue 2px 2px 5px;
+
+	}
+
+.button-sobre{
+	border: #66b3ff 2px dotted;
+	border-radius: 5px;
+	color: gray;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 9%;
+	display: flex;
+	margin-top: 5px;
+	}
+
+
+.button{
+	background-color: #99ccff;
+	border: #66b3ff 2px solid;
+	border-radius: 5px;
+	color: gray;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 10%;
+	display: flex;
+}
+
+.tag{
+	font-size: 22px;
+	text-align: center;
+	font-style: italic;
 }

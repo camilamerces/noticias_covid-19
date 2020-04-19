@@ -1,5 +1,5 @@
 Desafio: Página de Notícias do COVID-19
-Olá, olá!
+Olá!
 
 Todo mundo pronto para colocar a mão na massa? :)
 

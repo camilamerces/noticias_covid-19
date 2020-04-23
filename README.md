@@ -1,10 +1,6 @@
-Desafio: Página de Notícias do COVID-19
+## Desafio: Página de Notícias do COVID-19
 
-Olá!
-
-Todo mundo pronto para colocar a mão na massa? :)
-
-Chegou a hora de vocês usarem tudo que aprenderam de HTML, CSS e GIT para construir uma landing page com as 6 melhores notícias sobre o COVID-19 na sua opinião. Para isso, vocês devem encontrar pelo menos dois tipos de notícia entre texto, vídeo e áudio.
+Chegou a hora de vocês usarem tudo que aprenderam de **HTML, CSS e GIT para construir uma landing page com as 6 melhores notícias sobre o COVID-19 na sua opinião**. Para isso, vocês devem encontrar pelo menos dois tipos de notícia entre texto, vídeo e áudio.
 
 A página deve obrigatoriamente ter arquivos separados de HTML e CSS, ser hard coded (isso é, código proprietário seu, sem usar Bootstrap e ferramentas drag-and-drop como Wix) e estar em um repositório no GitHub.
 

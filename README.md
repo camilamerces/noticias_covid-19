@@ -13,3 +13,6 @@ Além disso, criem um menu de navegação e as páginas respectivas de:
 - Contato: um formulário onde os visitantes possam te procurar (ele não precisa ser hard coded, pode usar um form pronto de ferramentas de marketing)
 
 - Saiba Mais: curadoria de fontes de onde você tirou essas notícias, para o caso da pessoa querer navegar e descobrir outras.
+
+
+***Resultado***: https://covid19-surpreenda-se.netlify.app/
